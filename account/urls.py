@@ -11,7 +11,6 @@ urlpatterns = [
     # path('users/register/', views.registerUser, name='users-register'), # Function Based
 
     path('token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
-    # path('refresh/', views.CustomTokenRefreshView.as_view(), name='token_refresh'),
     path('token/verify/', TokenVerifyView.as_view(), name='token_verify'),
 
     # path('users/profile/', views.getUserProfile, name="users-profile"), # Function Based
